@@ -9,7 +9,7 @@ class C_DeathPeople {
     }
     public function Index(){
         $D = $this->model->SelectAll();
-        include "app/views/V_DeathPeople.php";
+        include "index.php";
     }
     public function Edit($Number){
         $D = $this->model->Selectdeath_people($Number); 
