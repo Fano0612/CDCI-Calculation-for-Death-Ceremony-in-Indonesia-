@@ -24,7 +24,7 @@ class C_DeathPeople {
         $nama = $_POST['nama'];
         $tk = $_POST['tanggalkematian'];
         $Update = $this->model->Updatedeath_people($nik, $nama, $tk);
-        header("location:index.php");
+        echo "<script>window.location.href='index.php';</script>";
     }
     public function Delete($nomor){
         $Delete = $this->model->Deletedeath_people($nomor);

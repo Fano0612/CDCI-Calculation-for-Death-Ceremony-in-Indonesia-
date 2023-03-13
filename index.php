@@ -135,7 +135,7 @@ require_once "app/controllers/C_DeathPeople.php";
                                         <div class="product">
                                             <div class="tm-nav-link">
                                                 <i class="fas fa-handshake fa-3x tm-nav-icon"></i>
-                                                <span class="tm-nav-text">List</span>
+                                                <span class="tm-nav-text">List</span>                                 
                                                 <div class="product__bg"></div>
                                             </div>
                                             <div class="product__description">
